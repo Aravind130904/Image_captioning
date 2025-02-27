@@ -16,4 +16,4 @@ demo = gr.Interface(fn=generate_caption,
                     inputs=[gr.Image(label="Image")]
                     ,outputs=[gr.Text(label="Caption"),],)
 
-demo.launch()
+demo.launch() 
